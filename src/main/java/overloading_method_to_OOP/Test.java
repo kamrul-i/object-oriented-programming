@@ -5,19 +5,14 @@ public class Test {
     public static void main(String[] args) {
 
         //এখানে ২টি class use করা হয়েছে।। এই class-এ object create করে, অন্য class কে call করা হয়েছে।।
-        //How to return a value from method ?
-        //one system -------------------------
-        Teacher teacher1 = new Teacher();
-        double result = teacher1.square(5);
-        System.out.println("square of 5 =  " + result);
+        Teacher teacher = new Teacher();
+        teacher.displayInformation();
 
-        Teacher teacher2 = new Teacher();
-        double result2 = teacher2.square(9);
-        System.out.println("square of 9 =  " + result2);
+        Teacher teacher1 = new Teacher("kamrul islam", "male");
+        teacher1.displayInformation();
 
-        //two system. ------------------------
-        Teacher teacher3 = new Teacher();
-        System.out.println("square of 6 =  " + teacher3.square(6));
+        Teacher teacher2 = new Teacher("kamrul", "male", 123456);
+        teacher2.displayInformation();
 
     }
 }
