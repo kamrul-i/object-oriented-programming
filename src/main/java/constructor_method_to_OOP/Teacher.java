@@ -7,8 +7,12 @@ public class Teacher {
     String name, subjectName, gender;
     double salary;
 
+    //it is default constructor -----------------------
+    Teacher() {
+        //System.out.println("no value");
+    }
+
     //it is parametrized constructor ------------------
-    //class name দ্বারা create হলে, সে method কে constructor বলে।।
     Teacher(String n, String sub, String g, double s) {
         name = n;
         subjectName = sub;
