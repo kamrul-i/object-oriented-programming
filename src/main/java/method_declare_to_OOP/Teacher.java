@@ -13,5 +13,9 @@ public class Teacher {
         System.out.println("SubjectName : " + subjectName);
         System.out.println("Gender      : " + gender);
         System.out.println("Phone       : " + phone);
+        System.out.println();
+
+        //multiple objects can be printed by declaring one method.
+        //Objects can be in this class, or can be in other classes, but it must be in the main method.
     }
 }

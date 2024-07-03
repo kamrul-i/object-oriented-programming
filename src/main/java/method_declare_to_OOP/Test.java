@@ -11,10 +11,42 @@ public class Test {
         teacher.subjectName = "Bangla";
         teacher.gender = "male";
         teacher.phone = 17100445;     //প্রথমে 0 দিলে কাজ করে না ।।
-
         teacher.displayInformation();
-        // উপরের তথ্যগুলো print করতে প্রত্যেকটি line এর জন্য printline তৈরি করা লাগে।।
-        // তবে method declare এর মাধ্যমে সকল তথ্যকে 01 line এর মাধ্যমে print করা যায়।।
+
+        Teacher teacher1 = new Teacher();
+        teacher1.name = "Nabila hasan";
+        teacher.subjectName = "English";
+        teacher1.gender = "fimale";
+        teacher1.phone = 181500445;
+        teacher1.displayInformation();
+
+        Teacher teacher2 = new Teacher();
+        teacher2.name = "Jahid Ahmed";
+        teacher.subjectName = "Agriculture";
+        teacher2.gender = "male";
+        teacher2.phone = 182000010;
+        teacher2.displayInformation();
+
+        Teacher teacher3 = new Teacher();
+        teacher3.name = "Abdullah";
+        teacher3.subjectName = "Mathmatices";
+        teacher3.gender = "male";
+        teacher3.phone = 178583256;   //প্রথমে 0 দিলে কাজ করে না ।।
+        teacher3.displayInformation();
+
+        Teacher teacher4 = new Teacher();
+        teacher4.name = "Arman Arif";
+        teacher4.subjectName = "History";
+        teacher4.gender = "male";
+        teacher4.phone = 163825;   //প্রথমে 0 দিলে কাজ করে না ।।
+        teacher4.displayInformation();
+
+        Teacher teacher5 = new Teacher();
+        teacher5.name = "Shahana Begum";
+        teacher5.subjectName = "Science";
+        teacher5.gender = "female";
+        teacher5.phone = 15742382;   //প্রথমে 0 দিলে কাজ করে না ।।
+        teacher5.displayInformation();
         //---------------------------------------------
 
         /*
