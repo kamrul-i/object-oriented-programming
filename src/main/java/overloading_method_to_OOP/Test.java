@@ -5,26 +5,19 @@ public class Test {
     public static void main(String[] args) {
 
         //এখানে ২টি class use করা হয়েছে।। এই class-এ object create করে, অন্য class কে call করা হয়েছে।।
-        Overload od = new Overload();
-        od.add();
-        od.add(5, 6);
-        od.add(5.f, 6);
-        od.add(5.2, 6.8);
-        od.add(15, 10, 70);
-    }
+        //How to return a value from method ?
+        //one system -------------------------
+        Teacher teacher1 = new Teacher();
+        double result = teacher1.square(5);
+        System.out.println("square of 5 =  " + result);
 
-    /*
-    if the variable counldn't find same method, it will be converted to the variable on the right side.
-    java automatic type conversion
-    
-    type        valid promotion
-    double      None
-    float       double
-    long        float, double
-    int         long, float, double
-    char        int, long, float, double
-    short       int, long, float, double
-    byte        short, int, long, float, double
-    boolean     None
-     */
+        Teacher teacher2 = new Teacher();
+        double result2 = teacher2.square(9);
+        System.out.println("square of 9 =  " + result2);
+
+        //two system. ------------------------
+        Teacher teacher3 = new Teacher();
+        System.out.println("square of 6 =  " + teacher3.square(6));
+
+    }
 }
