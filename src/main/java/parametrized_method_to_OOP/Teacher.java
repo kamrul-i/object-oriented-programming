@@ -6,9 +6,9 @@ public class Teacher {
     //these are instance variable
     String name, subjectName, gender;
     double salary;
-    
+
     //it is parametrized method. first bracket এর মধ্যে কিছু থাকলে, তাকে parametrized method বলে।।
-    void setInformation(String n, String sub, String g, double s){
+    void setInformation(String n, String sub, String g, double s) {
         name = n;
         subjectName = sub;
         gender = g;
@@ -20,7 +20,7 @@ public class Teacher {
         System.out.println("Name        : " + name);
         System.out.println("SubjectName : " + subjectName);
         System.out.println("Gender      : " + gender);
-        System.out.println("Salary      : " + salary +" Dolar");
+        System.out.println("Salary      : " + salary + " Dolar");
         System.out.println();
 
         //multiple objects can be printed by declaring one method.
