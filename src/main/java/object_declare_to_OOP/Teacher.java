@@ -1,4 +1,5 @@
 package object_declare_to_OOP;
+
 public class Teacher {
 
     //এখানে ২টি class use করা হয়েছে।। এই class-এ variable declare করে, অন্য class থেকে তাকে call করা হয়েছে।।
