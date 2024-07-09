@@ -7,13 +7,8 @@ public class Test {
 
         Add_Demo ad = new Add_Demo();
         ad.add(10, 20);
-        ad.add(10, 20, 30);
-        ad.add(54, 90, 82, 32);
+        ad.add(30, 20, 40);
+        ad.add(10, 50, 30, 70);
+        ad.add(10, 80, 30, 90, 50);
     }
-    /*
-    এখানে ২টি, ৩টি, ৪টি arguments declare করা হয়েছে, এবং class কে call করা হয়েছে, 
-    এভাবে যতটি arguments যুক্ত object declare করবেন, class-এ ততটি method declare করতে হবে, এভাবে আর কত করবেন!!
-    পরবর্তী commit-এ update দেখুন।।
-     */
-
 }
